@@ -29,7 +29,7 @@ Follow the steps outlined in the quick start guide provided by Vercel. This guid
 
 Remember to update your environment variables (KV_URL, KV_REST_API_URL, KV_REST_API_TOKEN, KV_REST_API_READ_ONLY_TOKEN) in the .env file with the appropriate credentials provided during the KV database setup.
 
-#Running locally
+##Running locally
 You will need to use the environment variables defined in .env.example to run Next.js AI Chatbot. It's recommended you use Vercel Environment Variables for this, but a .env file is all that is necessary.
 
 Note: You should not commit your .env file or it will expose secrets that will allow others to control access to your various OpenAI and authentication provider accounts.
