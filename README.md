@@ -5,7 +5,7 @@ An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, Op
 Features · Model Providers · Deploy Your Own · Running locally · Authors
 
 
-Features
+# Features
 Next.js App Router
 React Server Components (RSCs), Suspense, and Server Actions
 Vercel AI SDK for streaming chat UI
@@ -22,14 +22,14 @@ This template ships with OpenAI gpt-3.5-turbo as the default. However, thanks to
 Deploy Your Own
 You can deploy your own version of the Next.js AI Chatbot to Vercel with one click:
 
-Deploy with Vercel
+Deploy with Me
 
 Creating a KV Database Instance
 Follow the steps outlined in the quick start guide provided by Vercel. This guide will assist you in creating and configuring your KV database instance on Vercel, enabling your application to interact with it.
 
 Remember to update your environment variables (KV_URL, KV_REST_API_URL, KV_REST_API_TOKEN, KV_REST_API_READ_ONLY_TOKEN) in the .env file with the appropriate credentials provided during the KV database setup.
 
-##Running locally
+## Running locally
 You will need to use the environment variables defined in .env.example to run Next.js AI Chatbot. It's recommended you use Vercel Environment Variables for this, but a .env file is all that is necessary.
 
 Note: You should not commit your .env file or it will expose secrets that will allow others to control access to your various OpenAI and authentication provider accounts.
